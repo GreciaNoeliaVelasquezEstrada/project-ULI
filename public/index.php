@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Contracts\Http\Kernel;
+use Illuminate\Contracts\Http\Handler;
 use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
